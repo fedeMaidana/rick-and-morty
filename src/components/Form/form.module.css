@@ -1,0 +1,57 @@
+.presentationContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.presentation{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(165, 62, 146);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+}
+.presentation > img{
+    width: 50%;
+    height: 100%;
+    object-fit: fill;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.presentation > form{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    justify-content: center;
+}
+.presentation > form > label{
+    color: rgb(255, 255, 255);
+    font-family: 'Barriecito', cursive;
+    font-size: 1.4rem;
+}
+.presentation > form > .password{
+    margin-top: 20px;
+}
+.presentation > form > input{
+    width: 50%;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.presentation > form > button{
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-self: center;
+    background-color: rgb(7, 128, 130);
+    font-family: 'Barriecito', cursive;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+h1{
+    font-size: 6rem;
+    color: rgb(250, 250, 250);
+    font-family: 'Permanent Marker', cursive;
+}
+.dataContainer{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.factContainer{
+    height: inherit;
+    width: 20%;
+    padding: 5px;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 20px;
+}
+.dataContainer > .factContainer > p{
+    color: rgb(250, 250, 250);
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Barriecito', cursive;
+    text-align: center;
+}
