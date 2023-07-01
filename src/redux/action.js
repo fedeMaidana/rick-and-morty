@@ -10,4 +10,4 @@ export const removeFav = (id) => {
         type: 'REMOVE_FAV',
         payload: id
     }
-} 
+}

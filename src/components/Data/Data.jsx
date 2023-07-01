@@ -34,4 +34,4 @@ const Data = (props) => {
     )
 }
 
-export default Data 
+export default Data

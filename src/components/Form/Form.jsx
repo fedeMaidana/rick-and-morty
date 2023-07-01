@@ -53,4 +53,4 @@ const Form = ({onLogin}) => {
     )
 }
 
-export default Form 
+export default Form

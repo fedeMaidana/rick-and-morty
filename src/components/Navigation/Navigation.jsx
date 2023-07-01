@@ -37,4 +37,4 @@ const Navigation = (props) => {
     )
 }
 
-export default Navigation 
+export default Navigation

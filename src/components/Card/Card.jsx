@@ -88,4 +88,4 @@ const mapDispatchToProps = {
    removeFav
 }
 
-export default connect(null, mapDispatchToProps)(CharDisp) 
+export default connect(null, mapDispatchToProps)(CharDisp)
